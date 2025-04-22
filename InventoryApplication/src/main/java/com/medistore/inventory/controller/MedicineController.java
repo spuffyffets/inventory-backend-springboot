@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*") // For Angular
+@CrossOrigin(origins = "*") 
 @RestController
 @RequestMapping("/api/medicines")
 public class MedicineController {
